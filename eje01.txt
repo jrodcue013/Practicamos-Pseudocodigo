@@ -1,0 +1,12 @@
+Inicio
+
+    Escribe "Introduce un número entero:"
+    Lee numero
+
+    Si numero % 2 = 0 Entonces
+        Escribe numero + " es un número par."
+    SiNo
+        Escribe numero + " es un número impar."
+    FinSi
+
+Fin
