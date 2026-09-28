@@ -1,0 +1,15 @@
+Inicio
+
+    Escribe "Introduce un número entero positivo:"
+    Lee numero
+
+    suma <- 0
+
+    Para i en (1...numero) hacer
+        suma <- suma + i
+    FinPara
+
+    Escribe "La suma de los enteros desde 1 hasta " +
+             numero + " es: " + suma + "."
+
+Fin

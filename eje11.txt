@@ -1,0 +1,15 @@
+Inicio
+
+    Escribe "Introduce la cantidad inicial depositada en euros:"
+    Lee ahorro
+
+    ahorro <- ahorro * 1.04
+    Escribe "Ahorros tras el primer año: " + ahorro + " euros."
+
+    ahorro <- ahorro * 1.04
+    Escribe "Ahorros tras el segundo año: " + ahorro + " euros."
+
+    ahorro <- ahorro * 1.04
+    Escribe "Ahorros tras el tercer año: " + ahorro + " euros."
+
+Fin

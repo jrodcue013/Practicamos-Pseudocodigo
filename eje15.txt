@@ -1,0 +1,30 @@
+Inicio
+
+    Escribe "Introduce el número de términos de Fibonacci (entero positivo):"
+    Lee cantidad
+
+    Escribe "Serie de Fibonacci:"
+
+    anterior <- 0
+    actual <- 1
+
+    Si cantidad >= 1 Entonces
+        Escribe anterior
+    FinSi
+
+    Si cantidad >= 2 Entonces
+        Escribe actual
+    FinSi
+
+    Para i en (3...cantidad) hacer
+
+        siguiente <- anterior + actual
+
+        Escribe siguiente
+
+        anterior <- actual
+        actual <- siguiente
+
+    FinPara
+
+Fin

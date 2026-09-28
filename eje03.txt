@@ -1,0 +1,28 @@
+Inicio
+
+    Escribe "Introduce un número entero:"
+    Lee numero
+
+    divisores <- 0
+
+    Si numero > 1 Entonces
+
+        Para i en (1...numero) hacer
+
+            Si numero % i = 0 Entonces
+                divisores <- divisores + 1
+            FinSi
+
+        FinPara
+
+        Si divisores = 2 Entonces
+            Escribe numero + " es un número primo."
+        SiNo
+            Escribe numero + " no es un número primo."
+        FinSi
+
+    SiNo
+        Escribe numero + " no es un número primo."
+    FinSi
+
+Fin

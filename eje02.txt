@@ -1,0 +1,12 @@
+Inicio
+
+    Escribe "Introduce un número entero:"
+    Lee numero
+
+    Escribe "Tabla de multiplicar del número " + numero + ":"
+
+    Para i en (1...10) hacer
+        Escribe numero + " x " + i + " = " + (numero * i)
+    FinPara
+
+Fin

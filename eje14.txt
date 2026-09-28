@@ -1,0 +1,16 @@
+Inicio
+
+    Escribe "Introduce un número entero positivo:"
+    Lee numero
+
+    Escribe "Los divisores de " + numero + " son:"
+
+    Para i en (1...numero) hacer
+
+        Si numero % i = 0 Entonces
+            Escribe i
+        FinSi
+
+    FinPara
+
+Fin

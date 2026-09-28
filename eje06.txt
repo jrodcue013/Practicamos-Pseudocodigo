@@ -1,0 +1,13 @@
+Inicio
+
+    Escribe "Introduce tu peso en kilogramos:"
+    Lee peso
+
+    Escribe "Introduce tu estatura en metros:"
+    Lee estatura
+
+    imc <- peso / (estatura * estatura)
+
+    Escribe "Tu índice de masa corporal es: " + imc + "."
+
+Fin

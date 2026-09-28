@@ -1,0 +1,20 @@
+Inicio
+
+    Escribe "Introduce el número de barras del día anterior vendidas:"
+    Lee barras
+
+    precioBarra <- 3.49
+    descuento <- 60
+
+    importe <- barras * precioBarra * 0.40
+
+    Escribe "Precio habitual de una barra: " +
+             precioBarra + " euros."
+
+    Escribe "Descuento aplicado: " +
+             descuento + " %."
+
+    Escribe "Importe total de la venta: " +
+             importe + " euros."
+
+Fin

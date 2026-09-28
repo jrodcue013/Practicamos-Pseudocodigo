@@ -1,0 +1,16 @@
+Inicio
+
+    Escribe "Introduce el dividendo (entero no negativo):"
+    Lee dividendo
+
+    Escribe "Introduce el divisor (entero positivo):"
+    Lee divisor
+
+    cociente <- dividendo / divisor
+    resto <- dividendo % divisor
+
+    Escribe "La división de " + dividendo + " entre " + divisor +
+             " da un cociente de " + cociente +
+             " y un resto de " + resto + "."
+
+Fin

@@ -1,0 +1,18 @@
+Inicio
+
+    Escribe "Introduce el primer número:"
+    Lee suma
+
+    Escribe "Introduce el segundo número:"
+    Lee numero
+
+    suma <- suma + numero
+
+    Escribe "Introduce el tercer número:"
+    Lee numero
+
+    suma <- suma + numero
+
+    Escribe "La suma es: " + suma + "."
+
+Fin
